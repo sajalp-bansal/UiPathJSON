@@ -1,0 +1,36 @@
+{
+  "name": "JSON Handling",
+  "description": "- Allows reading a .JSON file from desired path\r\n- Return data as a string, JSON Token for a single object, JArray for a JSON array and a datatable if needed by user\r\n- Dependencies are \"UiPathTeam.JsonDataConverter.Activities\" and \"UiPath.Web.Activities\"",
+  "main": "Aconex.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[18.4.2]",
+    "UiPath.UIAutomation.Activities": "[19.11.2]",
+    "UiPath.WebAPI.Activities": "[1.4.4]",
+    "UiPathTeam.JsonDataConverter.Activities": "[1.1.0]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.12.0.61",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfoCollection": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
