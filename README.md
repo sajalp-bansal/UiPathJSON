@@ -1,2 +1,2 @@
 # UiPathJSON
-# JSONData.JSON file is a temporary file holding data. You add your file here or pass the needed directory to the In_JSONFilePath arguement
+You add your file to the current project folder or pass the needed directory in the In_JSONFilePath arguement. The file must be a .JSON file.
